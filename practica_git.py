@@ -1,6 +1,6 @@
 def run ():
     print("este es mi primer programa para git")
-    print("en este narraremos nuestra esta historia en la programacion")
+    print("en esta es la prueba de git con ssh ")
     print("este programa realiza suma de numeros ")
     funcion_suma()
 
