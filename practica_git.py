@@ -1,8 +1,17 @@
 def run ():
-    print("este es mi primer programa para git")
-    print("en esta es la prueba de git con ssh ")
-    print("este programa realiza suma de numeros ")
-    funcion_suma()
+    print("Esta es la calculadora de confianza")
+    print("escoje la operacion que deseas realizar ")
+    print('''
+        para suma seleccione +
+        para resta selecciones - ''')
+
+    operator = str(input("seleciona la operacion "))
+
+    if operator == "+":
+        funcion_suma()
+    elif operator == "-":
+        funcion_resta()
+    
 
 def funcion_suma ():
 
